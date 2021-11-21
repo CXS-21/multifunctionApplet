@@ -1,0 +1,80 @@
+.myTimeSelectContainer {
+  width: 100%;
+  .myTimeSelectContent {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    .myTimeSelectContentTitle {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+      padding-left: 16px;
+      border-left: 6px solid #26b16c;
+      font-size: 28px;
+      color: #333;
+      > Text:last-child {
+        margin-left: 20px;
+        color: #999;
+      }
+    }
+    .myTimeSelectContentCon {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      .myTimeSelectContentConItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        width: 40%;
+        height: 80px;
+        background: #f4f4f4;
+        border-radius: 8px;
+        color: #333;
+        font-size: 28px;
+      }
+      .current {
+        border: 2px solid #28a188;
+        color: #28a188;
+      }
+      .ban {
+        color: #ccc;
+      }
+    }
+    //非定位
+    // .submit {
+    //   width: 100%;
+    //   margin-top: 40px;
+    //   .submitCon {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     height: 80px;
+    //     color: #fff;
+    //     border-radius: 40px;
+    //     background-color: #28a188;
+    //   }
+    // }
+  }
+  // 定位
+  .submit {
+    position: fixed;
+    bottom: 100px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    width: 100%;
+    .submitCon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 80px;
+      color: #fff;
+      border-radius: 40px;
+      background-color: #28a188;
+    }
+  }
+}
