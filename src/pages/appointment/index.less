@@ -1,0 +1,197 @@
+.equipmentReservation-container {
+  width: 100%;
+  box-sizing: border-box;
+  .header-bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 172px;
+    z-index: -11;
+  }
+  .equipmentReservation-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    .body {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: #f3f3f3;
+      .title {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 0 30px;
+        color: #333;
+        font-size: 28px;
+        .titleInfo {
+          border-left: 6px solid #26b16c;
+          padding-left: 16px;
+          margin-bottom: 20px;
+          font-size: 28px;
+          color: #333;
+        }
+        .titleItem {
+          display: flex;
+          align-items: center;
+          // flex: 1;
+          margin-bottom: 30px;
+          justify-content: flex-start;
+          .pickerCon {
+            display: flex;
+            flex: 1;
+            .select-place {
+              display: flex;
+              color: #333;
+              font-size: 28px;
+              font-weight: 500;
+            }
+            .icon-down {
+              display: flex;
+              margin: 6px 0 0 10px;
+            }
+          }
+        }
+        .titleItem:nth-child(2) {
+          justify-content: center;
+          margin-left: 30px;
+        }
+        .titleItem:last-child {
+          justify-content: flex-end;
+        }
+      }
+      .item {
+        padding: 30px;
+        margin-bottom: 10px;
+        background-color: #fff;
+        .item-con {
+          display: flex;
+          justify-content: space-between;
+          background-color: #fff;
+          margin-bottom: 20px;
+          .left {
+            display: flex;
+            .pic {
+              width: 136px;
+              height: 136px;
+              .image {
+                width: 136px;
+                height: 136px;
+                border-radius: 16px;
+              }
+            }
+            .text {
+              display: flex;
+              flex-direction: column;
+              color: #333;
+              margin-left: 16px;
+              .text1 {
+                font-size: 28px;
+                margin-bottom: 8px;
+              }
+              .text2 {
+                display: flex;
+                align-items: center;
+                font-size: 24px;
+                color: #666;
+                .image {
+                  width: 40px;
+                  height: 20px;
+                  margin-right: 20px;
+                }
+              }
+            }
+          }
+          .right {
+            display: flex;
+            flex-direction: column;
+            .Text {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 90px;
+              height: 48px;
+              border-radius: 44px;
+              font-size: 20px;
+              color: #fff;
+            }
+            .text-top {
+              background-color: #0b856b;
+            }
+            .unOk {
+              background-color: #ccc;
+            }
+          }
+        }
+
+        .schedule {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 10px;
+          color: #ccc;
+          font-size: 24px;
+        }
+        .scheduleBox {
+          // width: 100%;
+          // // width: 680px;
+          // box-sizing: content-box;
+          // position: relative;
+          // top: 0;
+          // flex: 1;
+          // height: 15px;
+          // font-size: 24px;
+          // // margin: 0 0.5em;
+          // // border-radius: 8px;
+          // border: 1px solid rgba(223, 223, 223, 1);
+          // > text {
+          //   position: absolute;
+          //   // border-radius: 8px;
+          //   height: 100%;
+          //   // background: #dfdfdf;
+          //   &.activity {
+          //     // background-color: rgba(248, 170, 64, 1);
+          //     background-color: #ccc;
+          //   }
+          // }
+          display: flex;
+          width: 100%;
+          .timeBox {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .timeColor {
+              display: flex;
+              height: 16px;
+              border-top: 1px solid rgba(223, 223, 223, 1);
+              border-bottom: 1px solid rgba(223, 223, 223, 1);
+              overflow: hidden;
+            }
+            .timeColorBorderL {
+              border-left: 1px solid rgba(223, 223, 223, 1);
+              border-top-left-radius: 8px;
+              border-bottom-left-radius: 8px;
+            }
+            .timeColorBorderR {
+              border-right: 1px solid rgba(223, 223, 223, 1);
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+            }
+            .timeText {
+              display: flex;
+              justify-content: space-between;
+              font-size: 20px;
+              margin-top: 10px;
+            }
+            .activity {
+              // background-color: rgba(248, 170, 64, 1);
+              background-color: #ccc;
+            }
+          }
+        }
+      }
+    }
+  }
+}

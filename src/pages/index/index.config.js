@@ -1,3 +1,3 @@
 export default {
-  navigationBarTitleText: "时间选择",
+  navigationBarTitleText: "功能目录",
 };
