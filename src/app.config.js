@@ -3,6 +3,7 @@ export default {
     "pages/index/index",
     "pages/appointment/index",
     "pages/appointment/time",
+    "pages/changeLanguage/index",
   ],
   window: {
     backgroundTextStyle: "light",

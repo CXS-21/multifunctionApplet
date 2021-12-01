@@ -18,12 +18,17 @@ export default class Index extends Component {
         },
         {
           id: 2,
-          info: "tab2",
-          url: "",
+          info: "一键切换中英文",
+          url: "/pages/changeLanguage/index",
         },
         {
           id: 3,
-          info: "tab3",
+          info: "顶部导航栏",
+          url: "",
+        },
+        {
+          id: 4,
+          info: "周历",
           url: "",
         },
       ],

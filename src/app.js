@@ -1,33 +1,31 @@
-import Taro, { Component } from 'react'
-import { Provider } from 'react-redux'
-import './app.less'
-import dva from './dva'
-import models from './models/index'
+import Taro, { Component } from "react";
+import { Provider } from "react-redux";
+import "./app.less";
+import dva from "./dva";
+import models from "./models/index";
 
 const dvaApp = dva.createApp({
   initialState: {},
-  models: models
-})
-const store = dvaApp.getStore()
+  models: models,
+});
+const store = dvaApp.getStore();
 
 class App extends Component {
+  componentDidMount() {}
 
-  componentDidMount () {}
+  componentDidShow() {}
 
-  componentDidShow () {}
+  componentDidHide() {}
 
-  componentDidHide () {}
-
-  componentDidCatchError () {}
-
+  componentDidCatchError() {}
+  // 中英文切换，全局配置
+  taroGlobalData = {
+    content: null,
+  };
   // this.props.children 是将要会渲染的页面
-  render () {
-    return (
-      <Provider store={store}>
-        { this.props.children }
-      </Provider>
-    )
+  render() {
+    return <Provider store={store}>{this.props.children}</Provider>;
   }
 }
 
-export default App
+export default App;
