@@ -1,0 +1,66 @@
+.navBar {
+  height: 80px;
+  position: fixed;
+  color: #6abfad;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  z-index: 999;
+  .navBarUser {
+    position: relative;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 24px;
+    .msg {
+      position: absolute;
+      left: 64px;
+      top: 6px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #ee9f3d;
+    }
+    .pic {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+    .no-realname {
+      width: 80px;
+      height: 80px;
+      border-radius: 100px;
+      background-color: #d8d8d8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6abfad;
+      font-weight: 700;
+    }
+    .username {
+      margin-left: 40px;
+    }
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 36px;
+    .t1 {
+      margin-right: 10px;
+      color: #ee9f3d;
+      font-size: 40px;
+    }
+    .t2 {
+      color: #ccc;
+      font-size: 24px;
+    }
+  }
+  .navNullBox {
+    flex: 1;
+    width: 60px;
+  }
+}

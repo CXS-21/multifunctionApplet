@@ -23,8 +23,8 @@ export default class Index extends Component {
         },
         {
           id: 3,
-          info: "顶部导航栏",
-          url: "",
+          info: "自定义顶部导航栏",
+          url: "/pages/navigationBar/index",
         },
         {
           id: 4,

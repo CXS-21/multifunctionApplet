@@ -4,6 +4,7 @@ export default {
     "pages/appointment/index",
     "pages/appointment/time",
     "pages/changeLanguage/index",
+    "pages/navigationBar/index",
   ],
   window: {
     backgroundTextStyle: "light",
