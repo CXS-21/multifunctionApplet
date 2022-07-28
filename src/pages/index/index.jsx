@@ -31,6 +31,21 @@ export default class Index extends Component {
           info: "周历",
           url: "",
         },
+        {
+          id: 5,
+          info: "左滑删除",
+          url: "/pages/moveLeftDel/index",
+        },
+        {
+          id: 6,
+          info: "列表局部加载",
+          url: "",
+        },
+        {
+          id: 7,
+          info: "视频播放",
+          url: "/pages/video/index",
+        },
       ],
     };
   }

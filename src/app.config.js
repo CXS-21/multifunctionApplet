@@ -5,6 +5,8 @@ export default {
     "pages/appointment/time",
     "pages/changeLanguage/index",
     "pages/navigationBar/index",
+    "pages/moveLeftDel/index",
+    "pages/video/index", //视频
   ],
   window: {
     backgroundTextStyle: "light",
