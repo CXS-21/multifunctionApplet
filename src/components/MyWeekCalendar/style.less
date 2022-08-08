@@ -1,0 +1,71 @@
+.week_calendar {
+  .week_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .week_days_box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    .week_day {
+      font-size: 28rpx;
+      display: inline-flex;
+      justify-content: center;
+      line-height: 28px;
+      color: #999;
+    }
+  }
+
+  .my_swiper_box {
+    height: 110rpx !important;
+    .my_swiper_item {
+      display: flex;
+      justify-content: space-around;
+      .day,
+      .day_point {
+        margin-top: 10rpx;
+        display: flex;
+        font-size: 30rpx;
+        height: 60rpx;
+        width: 60rpx;
+        justify-content: center;
+        align-items: center;
+      }
+      .day_point {
+        margin-top: 0;
+        height: 20px;
+        .tips {
+          display: flex;
+        }
+        .day_point_item {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+        }
+        .c1 {
+          background-color: rgba(98, 218, 214, 0.5);
+        }
+        .c2 {
+          background-color: rgba(245, 154, 35, 0.5);
+        }
+        .c3 {
+          background-color: rgba(115, 209, 61, 0.5);
+        }
+      }
+      .selected {
+        background: linear-gradient(
+          rgba(98, 218, 214, 1),
+          rgba(19, 191, 180, 1)
+        );
+        box-shadow: 0px 8px 16px 0px rgba(121, 127, 245, 0.1);
+        border-radius: 16px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.nowDate {
+  color: red;
+}

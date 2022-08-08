@@ -29,7 +29,7 @@ export default class Index extends Component {
         {
           id: 4,
           info: "周历",
-          url: "",
+          url: "/pages/week/index",
         },
         {
           id: 5,
@@ -45,6 +45,16 @@ export default class Index extends Component {
           id: 7,
           info: "视频播放",
           url: "/pages/video/index",
+        },
+        {
+          id: 8,
+          info: "图片压缩",
+          url: "/pages/img/index",
+        },
+        {
+          id: 9,
+          info: "测试页面",
+          url: "/pages/demo/index",
         },
       ],
     };

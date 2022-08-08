@@ -41,6 +41,7 @@
     "@tarojs/react": "3.2.6",
     "@tarojs/runtime": "3.2.6",
     "@tarojs/taro": "3.2.6",
+    "dsh-utils": "^1.0.10",
     "dva-core": "^2.0.4",
     "dva-loading": "^3.0.22",
     "lodash": "4.17.15",
