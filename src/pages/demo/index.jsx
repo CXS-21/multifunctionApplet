@@ -6,8 +6,8 @@ import "./index.less";
 export default function() {
   return (
     <View>
-      <View>hello demo1</View>
       <View>hello demo2</View>
+      <View>hello demo1</View>
     </View>
   );
 }
