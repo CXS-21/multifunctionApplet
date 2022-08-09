@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { View, Text, Button } from "@tarojs/components";
+import { View, Text, Button, Image } from "@tarojs/components";
 import Taro from "@tarojs/taro";
 import { connect } from "react-redux";
 import "./index.less";
@@ -56,6 +56,41 @@ export default class Index extends Component {
           info: "操作菜单",
           url: "/pages/menu/index",
         },
+        {
+          id: 10,
+          info: "交互回调效果",
+          url: "/pages/interaction/index",
+        },
+        {
+          id: 11,
+          info: "------",
+          url: "",
+        },
+        {
+          id: 12,
+          info: "------",
+          url: "",
+        },
+        {
+          id: 13,
+          info: "------",
+          url: "",
+        },
+        {
+          id: 14,
+          info: "------",
+          url: "",
+        },
+        {
+          id: 15,
+          info: "------",
+          url: "",
+        },
+        {
+          id: 16,
+          info: "------",
+          url: "",
+        },
       ],
     };
   }
@@ -94,6 +129,17 @@ export default class Index extends Component {
                 </Button>
               );
             })}
+          <View
+            className="back"
+            onClick={() => {
+              Taro.pageScrollTo({
+                scrollTop: 0,
+                duration: 200,
+              });
+            }}
+          >
+            <Image src={require("../../assets/back.png")} className={"pic"} />
+          </View>
         </View>
       </View>
     );
