@@ -8,7 +8,7 @@ export default {
     "pages/moveLeftDel/index", //左滑删除
     "pages/video/index", //视频
     "pages/week/index", //周历
-    "pages/demo/index", //测试页面
+    "pages/menu/index", //测试页面
   ],
   window: {
     backgroundTextStyle: "light",

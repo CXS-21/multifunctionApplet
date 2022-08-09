@@ -53,8 +53,8 @@ export default class Index extends Component {
         },
         {
           id: 9,
-          info: "测试页面",
-          url: "/pages/demo/index",
+          info: "操作菜单",
+          url: "/pages/menu/index",
         },
       ],
     };
