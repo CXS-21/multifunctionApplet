@@ -63,8 +63,8 @@ export default class Index extends Component {
         },
         {
           id: 11,
-          info: "------",
-          url: "",
+          info: "图表集",
+          url: "/pages/chart/index",
         },
         {
           id: 12,

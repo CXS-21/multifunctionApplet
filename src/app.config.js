@@ -10,6 +10,8 @@ export default {
     "pages/week/index", //周历
     "pages/menu/index", //操作菜单页面
     "pages/interaction/index", //交互效果页面
+    "pages/chart/index", //图表
+    "pages/chart/pie", //定制饼图
   ],
   window: {
     backgroundTextStyle: "light",
