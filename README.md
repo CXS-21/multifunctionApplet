@@ -14,6 +14,6 @@ React + Taro + Dva
 
 ## 视频播放
 
-## 图表(uchart+echart)
+## 图表
 
 ## 自定义水印
