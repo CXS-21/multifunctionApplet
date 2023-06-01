@@ -12,6 +12,7 @@ export default {
     "pages/interaction/index", //交互效果页面
     "pages/chart/index", //图表
     "pages/chart/pie", //定制饼图
+    "pages/waterMark/index", //水印
   ],
   window: {
     backgroundTextStyle: "light",
