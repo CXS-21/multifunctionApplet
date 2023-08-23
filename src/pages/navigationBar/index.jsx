@@ -3,7 +3,7 @@ import { View, Text, Button } from "@tarojs/components";
 import Taro from "@tarojs/taro";
 import { connect } from "react-redux";
 import "./index.less";
-import MyNavigationBar from "../../components/myNavigationBar/index";
+import MyNavigationBar from "../../components/MyNavigationBar";
 @connect(({ user }) => ({
   userInfo: user.userInfo,
 }))

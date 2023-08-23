@@ -54,8 +54,8 @@ const dataList = [
     url: "/pages/waterMark/index",
   },
   {
-    label: "------",
-    url: "",
+    label: "打字机效果",
+    url: "/pages/typewriter/index",
   },
   {
     label: "------",

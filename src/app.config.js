@@ -13,6 +13,7 @@ export default {
     "pages/chart/index", //图表
     "pages/chart/pie", //定制饼图
     "pages/waterMark/index", //水印
+    "pages/typewriter/index", //打字机效果
   ],
   window: {
     backgroundTextStyle: "light",
