@@ -6,6 +6,10 @@ import "./index.less";
 import Empty from "../../components/Empty";
 const dataList = [
   {
+    label: "隐私授权",
+    url: "/pages/privacyData/index",
+  },
+  {
     label: "资源预约",
     url: "/pages/appointment/index",
   },

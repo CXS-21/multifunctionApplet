@@ -14,6 +14,7 @@ export default {
     "pages/chart/pie", //定制饼图
     "pages/waterMark/index", //水印
     "pages/typewriter/index", //打字机效果
+    "pages/privacyData/index", //隐私授权
   ],
   window: {
     backgroundTextStyle: "light",
@@ -21,4 +22,5 @@ export default {
     navigationBarTitleText: "WeChat",
     navigationBarTextStyle: "black",
   },
+  __usePrivacyCheck__: true, //开启隐私授权
 };
